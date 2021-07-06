@@ -1,0 +1,12 @@
+{
+    "usuario": [
+        {
+            "nome": "Maria Clara Ferreira",
+            "idade": "22",
+            "profissão": "Recepcionista",
+            "naturalidade": "Mongaguá",
+            "peso": "65",
+            "nascimento": "1999-20-03"
+        }
+    ]
+}
