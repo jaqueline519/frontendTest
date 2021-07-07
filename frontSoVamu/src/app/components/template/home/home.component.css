@@ -1,0 +1,93 @@
+*{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 2px;
+    background-color: rgb(12, 6, 15);
+}
+
+input {
+    outline: 0;
+    padding: 2px;
+}
+
+table{
+    color: white;
+    width: 100%;
+    background-color: rgb(12, 6, 15);
+}
+
+td{
+    height: 40px;
+    padding: 5px;
+}
+
+.td-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 4px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.table-container {
+    padding: 10px;
+   
+}
+
+.delete, .edit {
+    border-radius: 0;
+}
+
+.modal-container {
+    top: 0;
+    z-index: 10;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.513);
+    width: 100vw;
+    height: 93vh;
+}
+
+.modal {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    margin: 50px auto;
+    color: black;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.invisible {
+    display: none;
+}
+
+.btn-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 80px;
+    border-top: solid 1px rgb(116, 115, 115);
+    border-radius: 0;
+}
+
+.btn-modal {
+    width: 100px;
+    height: 35px;
+    border-radius: 0;
+}

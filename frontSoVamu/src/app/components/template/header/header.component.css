@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(12, 6, 15);
+}
+h1{
+    color: white;
+    padding: 30px;
+    height: 13vh;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    box-shadow: 0px 0px 15px black;
+    animation: alert 0.7s ease infinite;
+ }
+
+ @keyframes alert {
+     from { color: white}
+     to { color: rgb(24, 179, 24); }
+ }
