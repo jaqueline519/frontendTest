@@ -1,31 +1,58 @@
 {
   "users": [
     {
-      "id": 1,
-      "nome": "Maria Clara Ferreira",
-      "idade": 22,
-      "profissao": "Recepcionista",
-      "naturalidade": "Mongaguá",
-      "peso": 65,
-      "nascimento": "10/11/1953"
-    },
-    {
-      "nome": "Ana",
-      "idade": "34",
-      "profissao": "Costureira",
-      "naturalidade": "Caxias",
-      "peso": "45",
-      "nascimento": "10/10/2020",
-      "id": 2
-    },
-    {
-      "nome": "Jagunço",
-      "idade": "45",
-      "profissao": "Matador",
-      "naturalidade": "Balneário Gaivota",
-      "peso": "45",
-      "nascimento": "2021-07-08",
+      "nome": "Claudia Santos",
+      "idade": "23",
+      "profissao": "Gestora",
+      "naturalidade": "Florianópolis",
+      "peso": "62",
+      "nascimento": "1998-02-10",
       "id": 3
+    },
+    {
+      "nome": "Ana Maria da Silva",
+      "idade": "24",
+      "profissao": "Analista de Sistemas",
+      "naturalidade": "Porto Alegre",
+      "peso": "80",
+      "nascimento": "1996-10-10",
+      "id": 4
+    },
+    {
+      "nome": "Cleci dos Santos",
+      "idade": "64",
+      "profissao": "Dona de casa",
+      "naturalidade": "Palmeira das Missões",
+      "peso": "68",
+      "nascimento": "1957-08-13",
+      "id": 5
+    },
+    {
+      "nome": "Ademir dos Santos",
+      "idade": "30",
+      "profissao": "Empreendedor",
+      "naturalidade": "Julio de Castilhos",
+      "peso": "70",
+      "nascimento": "1991-02-25",
+      "id": 6
+    },
+    {
+      "nome": "Cristian Candia",
+      "idade": "29",
+      "profissao": "Analista de Sistemas",
+      "naturalidade": "Cachoeira do sul",
+      "peso": "64",
+      "nascimento": "1992-02-14",
+      "id": 7
+    },
+    {
+      "nome": "Jaqueline Santos",
+      "idade": "24",
+      "profissao": "Progamodora Junior",
+      "naturalidade": "Julio de Castilhos",
+      "peso": "62",
+      "nascimento": "1996-10-28",
+      "id": 8
     }
   ]
 }

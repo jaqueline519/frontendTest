@@ -4,9 +4,29 @@
     padding: 0;
     box-sizing: border-box;
     position: relative;
+    font-family: sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+
+input{
+    padding: 2px;
+}
+
+
+button {
+    background-color: rgb(12, 6, 15);
+    height: 35px;
+    border: none;
+}
+
+[btn-danger] {
+    background-color: tomato;
+}
+
+[btn-info] {
+    background-color: rgb(75, 1, 136);
+}
+
+[btn-save] {
+    background-color: rgb(98, 143, 10);
 }

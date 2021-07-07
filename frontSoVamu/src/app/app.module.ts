@@ -10,7 +10,6 @@ import { HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { EditComponent } from './components/template/edit/edit.component';
 import { FiltersPipe } from './pipes/filters.pipe';
-import { UserFormComponent } from './components/template/user-form/user-form.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import { UserFormComponent } from './components/template/user-form/user-form.com
     RegisterComponent,
     HomeComponent,
     EditComponent,
-    FiltersPipe,
-    UserFormComponent  
+    FiltersPipe
   ],
   imports: [
     BrowserModule,
