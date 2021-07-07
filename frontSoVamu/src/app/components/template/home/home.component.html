@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="menu">
+        <div>
+            <input type="text" name="filter" [(ngModel)]="filter">
+        </div>
+        <button class="register" (click)="register()">cadastrar</button>
+    </div>     
+    <div class="table-container">
+        <table *ngIf="users">
+            <thead>
+                <td>Nome</td>
+                <td>Idade</td>
+                <td>Profissão</td>
+                <td>Cidade de Nascimento</td>
+                <td>Peso</td>
+                <td>Anversário</td>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users | filters:filter">
+                    <td>{{user.nome}}</td>
+                    <td>{{user.idade}}</td>
+                    <td>{{user.profissao}}</td>
+                    <td>{{user.naturalidade}}</td>
+                    <td>{{user.peso}}</td>
+                    <td>{{user.nascimento}}</td>
+                    <td class="td-btn">
+                        <button class="delete" (click)="modal(user.id!)">apagar</button>
+                        <button class="edit"><a [routerLink]="['/edit/update/'+user.id]">editar</a> </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="modal-container invisible" id="modal">
+    <div class="modal">
+        <h3>Tem certeza que deseja excluir?</h3>
+        <div class="btn-group">
+            <button class="btn-modal" (click)="modal(0)">Cancelar</button>
+            <button class="btn-modal" (click)="deleteUser(id)">Sim</button>
+        </div>
+    </div>
+</div>

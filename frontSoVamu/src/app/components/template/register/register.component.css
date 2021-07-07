@@ -1,0 +1,30 @@
+*{
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 100vw;
+    height: 55vh;
+}
+
+.voltar, .salvar {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    width: 100px;
+    height: 25px;
+    border-radius: 0;
+}
+
+.voltar {
+    margin-right: 5px;
+}
+
+.btn-group {
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}

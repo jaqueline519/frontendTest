@@ -1,0 +1,90 @@
+*{
+    font-size: 14px;
+}
+
+.container {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10%;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+thead > td {
+    border: none;
+}
+
+td{
+    border: 1px solid black;
+    height: 40px;
+    padding: 5px;
+}
+
+.td-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 4px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.table-container {
+    padding: 10px;
+   
+}
+
+.delete, .edit {
+    border-radius: 0;
+}
+
+.modal-container {
+    z-index: 10;
+    margin-top: -7px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.513);
+    width: 100vw;
+    height: 100vh;
+}
+
+.invisible {
+    display: none;
+}
+
+.modal {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 80px;
+    border-top: solid 1px rgb(116, 115, 115);
+    border-radius: 0;
+}
+
+.btn-modal {
+    width: 100px;
+    height: 35px;
+    border-radius: 0;
+}
