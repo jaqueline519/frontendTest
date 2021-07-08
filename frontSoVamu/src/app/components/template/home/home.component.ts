@@ -50,14 +50,5 @@ export class HomeComponent implements OnInit {
     this.id = id
     document.getElementById('modal')?.classList.toggle('invisible')
   }
-  filtrar(palavraChave: string) {
-    if (palavraChave) {
-      palavraChave = palavraChave.toUpperCase();
 
-      this.users = this.users.filter(a =>
-            a.nome.toUpperCase().indexOf(palavraChave) >= 0
-        );
-    }
-  }
- 
 }
